@@ -7,7 +7,10 @@ export default function Home() {
       <Head>
         <title>Kalp App</title>
       </Head>
-      <button onClick={() => createWallet()}>Create Wallet</button>
+      <div id="app">
+        <p>Hello from Kalp Wallet</p>
+        <button onClick={() => createWallet()}>Create Wallet</button>
+      </div>
     </>
   );
 }
