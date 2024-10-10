@@ -1,13 +1,10 @@
 import Head from "next/head";
-import { createWallet, getWallet } from "@/lib/wallet";
+import { createWallet } from "@/lib/wallet";
 import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
     window.createWallet = createWallet;
-  }, []);
-  useEffect(() => {
-    window.getWallet = getWallet;
   }, []);
   return (
     <>
