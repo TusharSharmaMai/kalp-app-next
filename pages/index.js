@@ -13,7 +13,6 @@ export default function Home() {
       </Head>
       <div id="app">
         <p>Hello from Kalp Wallet</p>
-        <button onClick={() => createWallet()}>Create Wallet</button>
       </div>
     </>
   );
